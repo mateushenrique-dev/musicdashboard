@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Dashboard</title>
+  </head>
+  <body>
+    <aside class="side-bar">
+      <div class="profile">
+        <div class="profile-image"></div>
+        <div class="profile-infos">
+          <h2>Dany Schudler</h2>
+          <span></i> Edit profile <i class="fas fa-cog"></i></span>
+        </div>
+      </div>
+
+      <div class="music-categories">
+        <ul class="categories">
+          <li class="selected"><i class="far fa-eye"></i> Overview</li>
+          <li><i class="fas fa-columns"></i> News</li>
+          <li><i class="fas fa-music"></i> Playlists</li>
+          <li><i class="fas fa-podcast"></i> Discover</li>
+        </ul>
+      </div>
+
+      <div class="user-place">
+        <ul>
+          <li><i class="fas fa-tachometer-alt"></i> Dashboard</li>
+          <li><i class="fas fa-comments"></i> Messages</li>
+          <li><i class="fas fa-bell"></i> Notifications</li>
+          <li><i class="fas fa-user-friends"></i> Account</li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="music-place">
+      <div class="menu-mobile">
+        <button id="btn-menu">Menu</button>
+      </div>
+      <div class="search">
+        <i class="fas fa-search"></i>
+        <input type="search" placeholder="Search artists, playlists or tracks"/>
+      </div>
+      <section class="featured-playlists">
+        <h1>Featured Playlist</h1>
+        <ul class="playlists">
+          <li class="playlist">
+            <div class="playlist-image"><img src="assets/playlist1.jpg" alt="Playlist Image"></div>
+            <h2>Only STARTDUST</h2>
+            <span>24 tracks</span>
+          </li>
+          <li class="playlist">
+            <div class="playlist-image"><img src="assets/playlist2.jpg" alt="Playlist Image"></div>
+            <h2>Mike Vella</h2>
+            <span>12 tracks</span>
+          </li>
+          <li class="playlist">
+            <div class="playlist-image"><img src="assets/playlist3.jpg" alt="Playlist Image"></div>
+            <h2>the best singles s2</h2>
+            <span>163 trancks</span>
+          </li>
+          <li class="playlist">
+            <div class="playlist-image"><img src="assets/playlist4.jpg" alt="Playlist Image"></div>
+            <h2>Indies Musics</h2>
+            <span>138 tracks</span>
+          </li>
+        </ul>
+      </section>
+      <section class="profile-views">
+        <h2>Profile Views</h2>
+        <ul class="profiles">
+          <li>
+            <div class="profile-views-image"><img src="assets/view1.jpg" alt="Profile View Image"></div>
+            <div class="profile-info">
+              <h3>Jenny Villa</h3>
+              <span>1 day ago</span>
+            </div>
+            <span>4 albums</span>
+          </li>
+          <li>
+            <div class="profile-views-image"><img src="assets/view2.jpg" alt="Profile View Image"></div>
+            <div class="profile-info">
+              <h3>Aquila</h3>
+              <span>3 days ago</span>
+            </div>
+            <span>2 albums</span>
+          </li>
+          <li>
+            <div class="profile-views-image"><img src="assets/view3.jpg" alt="Profile View Image"></div>
+            <div class="profile-info">
+              <h3>This is War</h3>
+              <span>2 week ago</span>
+            </div>
+            <span>5 albums</span>
+          </li>
+        </ul> 
+      </section>
+      <section class="tracks-container">
+        <h2>Tracks</h2>
+        <ul class="tracks">
+          <li class="track">
+            <div><img src="assets/track1.jpg" alt="Track Image"></div>
+            <h3>Mahara Bon</h3>
+            <span>Sexy in Paris</span>
+          </li>
+          <li class="track">
+            <div><img src="assets/track2.jpg" alt="Track Image"></div>
+            <h3>Donna</h3>
+            <span>Pseudo-Life</span>
+          </li>
+          <li class="track">
+            <div><img src="assets/track3.jpg" alt="Track Image"></div>
+            <h3>Avven</h3>
+            <span>Magic</span>
+          </li>
+          <li class="track">
+            <div><img src="assets/track4.jpg" alt="Track Image"></div>
+            <h3>Cony</h3>
+            <span>Living</span>
+          </li>
+          <li class="track">
+            <div><img src="assets/track5.jpg" alt="Track Image"></div>
+            <h3>Dany</h3>
+            <span>Love in Peace</span>
+          </li>
+          <li class="track">
+            <div><img src="assets/track6.jpg" alt="Track Image"></div>
+            <h3>Youngger</h3>
+            <span>Fxck The L1fe</span>
+          </li>
+          <li class="track">
+            <div><img src="assets/track7.jpg" alt="Track Image"></div>
+            <h3>Edward</h3>
+            <span>Lie</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
